@@ -29,7 +29,7 @@ public class TestBase {
 	@BeforeMethod(description = "Load the HomePage website")
 	public void setup( @Optional("chrome") String browser, 
 			           @Optional("false")  boolean isLambdaTest, 
-			           @Optional("true")   boolean isHeadless, ITestResult result) throws FileNotFoundException {
+			           @Optional("false")   boolean isHeadless, ITestResult result) throws FileNotFoundException {
 		
 		this.isLambdaTest=isLambdaTest;
 		
@@ -53,16 +53,16 @@ public class TestBase {
 		return homePage;
 	}
 
-	@AfterMethod(description = "Tear Down the browser")
-	public void tearDown() {
-
-		if (isLambdaTest) {
-			logger.info("Closing LambdaTest Session");
-			LambdaTestUtility.quitSession();  //quit lambdatest session
-		} else {
-			logger.info("Closing local Machine Session");
-			homePage.quitSession(); //quit local machine session
-		}
-	}
+//	@AfterMethod(description = "Tear Down the browser")
+//	public void tearDown() {
+//
+//		if (isLambdaTest) {
+//			logger.info("Closing LambdaTest Session");
+//			LambdaTestUtility.quitSession();  //quit lambdatest session
+//		} else {
+//			logger.info("Closing local Machine Session");
+//			homePage.quitSession(); //quit local machine session
+//		}
+//	}
 
 }
