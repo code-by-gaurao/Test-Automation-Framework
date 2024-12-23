@@ -116,7 +116,7 @@ public abstract class BrowserUtility {
 		logger.info("Element found and now clicking on it " + element);
 		element.click();
 	}
-	
+
 	public void clickOnCheckBox(By locator) {
 		logger.info("Finding element with the locator " + locator);
 		// WebElement element = driver.get().findElement(locator); // Find the element
@@ -219,11 +219,11 @@ public abstract class BrowserUtility {
 
 		// File destFile=new
 		// File(System.getProperty("user.dir")+"//Screenshots//"+name);
-		//String path = System.getProperty("user.dir") + "//Screenshots//" + name + " - " + timeStamp + ".png";
-		
+		// String path = System.getProperty("user.dir") + "//Screenshots//" + name + " -
+		// " + timeStamp + ".png";
+
 		String path = "./Screenshots//" + name + " - " + timeStamp + ".png";
 
-		
 		File destFile = new File(path);
 		try {
 			FileUtils.copyFile(srcFile, destFile);

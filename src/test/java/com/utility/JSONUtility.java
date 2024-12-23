@@ -11,7 +11,7 @@ import com.ui.pojo.Environment;
 
 public class JSONUtility {
 
-	public static String readJSON(Env env)  {
+	public static String readJSON(Env env) {
 
 		Gson gson = new Gson();
 		File jsonfile = new File(System.getProperty("user.dir") + "//config//config.json");
@@ -23,21 +23,21 @@ public class JSONUtility {
 		}
 		Config config = gson.fromJson(fileReader, Config.class);
 		Environment environment = config.getEnvironments().get(env);
-		//System.out.println(environment.getUrl());
+		// System.out.println(environment.getUrl());
 		return environment.getUrl();
 
 	}
 
 }
-/*public static String readJSON(Env env) throws FileNotFoundException {
-
-		Gson gson = new Gson();
-		File jsonfile = new File(System.getProperty("user.dir") + "\\config\\config.json");
-		FileReader fileReader = new FileReader(jsonfile);
-		Config config = gson.fromJson(fileReader, Config.class);
-		Environment environment = config.getEnvironments().get(env);
-		//System.out.println(environment.getUrl());
-		return environment.getUrl();
-
-	}
-*/
+/*
+ * public static String readJSON(Env env) throws FileNotFoundException {
+ * 
+ * Gson gson = new Gson(); File jsonfile = new
+ * File(System.getProperty("user.dir") + "\\config\\config.json"); FileReader
+ * fileReader = new FileReader(jsonfile); Config config =
+ * gson.fromJson(fileReader, Config.class); Environment environment =
+ * config.getEnvironments().get(env);
+ * //System.out.println(environment.getUrl()); return environment.getUrl();
+ * 
+ * }
+ */
