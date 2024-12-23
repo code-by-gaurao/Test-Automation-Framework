@@ -36,6 +36,7 @@ public class PropertiesUtil {
 }
 
 /*
+ * 
  * public static String readProperty(){
  * 
  * File propfile= new

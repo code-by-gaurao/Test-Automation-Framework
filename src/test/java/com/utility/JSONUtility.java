@@ -23,6 +23,7 @@ public class JSONUtility {
 		}
 		Config config = gson.fromJson(fileReader, Config.class);
 		Environment environment = config.getEnvironments().get(env);
+		
 		// System.out.println(environment.getUrl());
 		return environment.getUrl();
 
