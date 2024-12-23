@@ -219,9 +219,10 @@ public abstract class BrowserUtility {
 
 		// File destFile=new
 		// File(System.getProperty("user.dir")+"//Screenshots//"+name);
-		// String path = System.getProperty("user.dir") + "//Screenshots//" + name + " - " + timeStamp + ".png";
+		// String path = System.getProperty("user.dir") + "//Screenshots//" + name + " -
+		// " + timeStamp + ".png";
 
-		String path = "./Screenshots//" + name + " - " + timeStamp + ".png";
+		String path = "./Screenshots/" + name + " - " + timeStamp + ".png";
 
 		File destFile = new File(path);
 		try {
