@@ -97,4 +97,4 @@ This automation framework is integrated with github actions. The tests will be e
 
 The reports will be archieved in gh-pages branch
 
-You can view the html reports at :
+You can view the html reports at : https://github.com/code-by-gaurao/Test-Automation-Framework/tree/gh-pages
