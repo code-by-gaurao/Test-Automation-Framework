@@ -222,7 +222,7 @@ public abstract class BrowserUtility {
 		// String path = System.getProperty("user.dir") + "//Screenshots//" + name + " -
 		// " + timeStamp + ".png";
 
-		String path = "./Screenshots/" + name + " - " + timeStamp + ".png";
+		String path = "./screenshots/" + name + " - " + timeStamp + ".png";
 
 		File destFile = new File(path);
 		try {
