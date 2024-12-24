@@ -5,7 +5,7 @@ This is a Java-based test automation framework.
 
 The framework leverages various libraries and tool to facilitate data-driven testing, logging, reporting and integration with cloud-based testing platform like lambdatest.
 ## 🚀 About Me
-Hi, My Name is Gaurao Kharate and I have 3 years of experience in Automation Testing using technologies.I have also led efforts to enhance our test automation framework using Selenium WebDriver and TestNG. My hands-on experience with tools such as Jenkins, Jira, and Cucumber has equipped me to handle complex testing workflows and collaborate across cross-functional teams.
+Hi, My Name is Gaurao Kharate and I have 3 years of experience in Automation Testing. I have also led efforts to enhance our test automation framework using Selenium WebDriver and TestNG. My hands-on experience with tools such as Jenkins, Jira, and Cucumber has equipped me to handle complex testing workflows and collaborate across cross-functional teams.
 
 
 
